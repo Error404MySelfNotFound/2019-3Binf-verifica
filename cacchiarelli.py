@@ -1,9 +1,15 @@
 from Book import Book
 
-martin_eden = Book("Martin_Eden","Jack_London","Rizzoli",2010,460,"IT\\ICCU\\TO0\\0417044")
-ritratto_di_signora_II = Book("Henry_James","Ritratto_di_Signora_II","",2010,355,"IT\\ICCU\\ANA\\0343680")
+il_capitan_fracassa = Book("il capitan fracassa","thèophile gautier","",2010,481,"IT\\ICCU\\ANA\\0343102")
+le_avventure_di_oliver_twist = Book("le avventure di oliver twist","charles dickens","",2010,450,"IT\\ICCU\\ANA\\0328890")
 
-books = [martin_eden,ritratto_di_signora_II]
+
+
+books = [il_capitan_fracassa,le_avventure_di_oliver_twist]
 
 def get_books_list():
     return books
+
+
+
+
